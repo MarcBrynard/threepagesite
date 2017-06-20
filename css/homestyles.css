@@ -1,0 +1,147 @@
+
+
+* {margin: 0; padding: 0;}
+
+footer{
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff; 
+  
+}
+ 
+body {
+   background: #fff;
+}
+
+
+
+ 
+a{
+  text-decoration: none;
+}
+
+.story{
+  color: red;
+  margin-top: -100px;
+  font-size: 50px;
+  padding-right: 750px;
+  text-align: center;
+  padding-top: 200px;
+ font-family: 'Anton', sans-serif;
+}
+
+.char{
+   color: red;
+  font-size: 30px;
+  margin-top: -300px;
+   padding-bottom: 300px;
+  padding-right: 250px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+ 
+}
+
+.art{
+   color: red;
+ margin-top: -700px;
+  padding-left: 250px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+ 
+}
+
+.ds{
+   color: red;
+  font-size: 40px;
+   margin-top: -150px;
+  padding-left: 750px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+ 
+}
+.gallery {
+  padding-top: 400px;
+   width: 1000px;
+   margin: 20px auto;
+}
+
+body{
+	background-image: url(http://www.imgbase.info/images/safe-wallpapers/video_games/metal_gear_solid/19591_metal_gear_solid.jpg);
+	background-repeat: no-repeat;
+  background-position: 15px;
+	background-size: 2000px;
+}
+ 
+
+ul {
+   list-style: none;
+}
+
+footer small{
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  color: black;
+  line-height: 2;
+}
+
+
+
+.gallery li {
+   height: 200px;
+   width: 200px;
+   margin: 25px;
+   float: left;
+   overflow: hidden;
+  
+   -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+     border-radius: 50%;
+}
+
+
+.gallery li img {
+   margin-top: -70px;
+  
+   -webkit-transition: margin 1.5s ease;
+      -moz-transition: margin 1.5s ease;
+       -ms-transition: margin 1.5s ease;
+        -o-transition: margin 1.5s ease;
+           transition: margin 1.5s ease;
+    }
+
+.gallery li a p {
+   width: 100px;
+   padding: 20px;
+   position: relative;
+   left: 15%;
+   top: 60%; /*set to 110% after this step!*/
+  
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   font: bold 18px/1 Helvetica, Verdana, sans-serif;
+   text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+
+   -webkit-transition: top 0.5s ease;
+      -moz-transition: top 0.5s ease;
+       -ms-transition: top 0.5s ease;
+        -o-transition: top 0.5s ease;
+           transition: top 0.5s ease;
+}
+
+a:hover{
+  margin-top: -20;
+}
+
+.gallery li:hover img {
+   margin-left: -150px;
+   margin-top: -150px;
+}
+
+.gallery li:hover p {
+   top: 40%;
+
